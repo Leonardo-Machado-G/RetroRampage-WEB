@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+		
+		<meta charset="utf-8">
+    	<meta name="description" content="Esta pagina web consistirá en mostrar un proyecto de programacion orientada a objetos">
+   		<meta name="author" content="Leonardo Machado Guazzelli">
+		<link rel="shortcut icon" href="img/favicon.ico">
+		<title>RetroRampage</title>
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/style_gallery.css" rel="stylesheet">
+
+		<style>
+
+			html, body, iframe{
+
+				width: 100%;
+				height: 100%;
+				margin:0;
+				padding:0;
+
+			}
+
+			a{
+
+				text-decoration: none;
+				color: white;
+
+			}
+
+			ul, li{
+
+				list-style-type: none;
+
+			}
+
+			@font-face {
+
+				font-family:Ghang;
+  				src:url(fonts/Ghang.ttf);
+  				font-weight: 800;
+
+			}
+
+			@font-face {
+
+				font-family:Lazer;
+  				src:url(fonts/Lazer84.ttf);
+  				font-weight: 800;
+				-webkit-box-shadow: inset 0 0 0.5vw rgba(0,0,0,0.5);
+
+			}
+
+			body::-webkit-scrollbar{
+
+				background: linear-gradient(to right,  #111123 ,  #141430 50%,  #111123  100%);
+				-webkit-box-shadow: inset 0 0 0.5vw rgba(0,0,0,0.5);
+
+			}
+
+			.background{
+
+				background-image: url('img/Escenario_3.png');
+				position:fixed;
+				top:0%;
+				left: 0%;
+				width: 100%;
+				height: 100%;
+
+				z-index: 0;
+
+			}
+
+			body::-webkit-scrollbar-thumb{
+
+				background-color:#7B7D7D;
+				border-radius: 10vw;
+				
+
+
+		</style>
+
+	</head>
+
+	<body>
+
+		<div class="background"></div>
+
+		<div class ="banner">
+			
+			<a href="index.html"><div class="textBanner">Rocket</div></a>
+
+			<a href="https://es.wikipedia.org/wiki/Saturno_V" target="_blank"><div class="whiteCircle">
+					
+			<img src="img/rocket.png" class="bannerRocket">
+
+			</div></a>
+
+			<div class="menu">
+
+				<a href="gallery.html">
+
+					<span class="listGallery">Gallery</span>
+
+				</a><br><br>
+				
+				<a href="https://www.udemy.com/" target="_blank">
+
+					<span class="listUdemy">Udemy</span>
+
+				</a><br><br>
+				
+				<a href="support.html">
+
+					<span class="listSupport">Support</span>
+
+				</a>
+
+			</div>
+
+			<a href="https://www.instagram.com/" target="_blank"><div class="whiteCircleIcons"><img src="img/instagram.png" class="imgInstagram" alt="instagram logo"></div></a>
+
+			<a href="https://es-es.facebook.com/" target="_blank"><div class="whiteCircleIcons" style="left:8vw;"><img src="img/Facebook.png" class="imgFacebook" alt="facebook logo"></div></a>
+
+			<a href="https://www.youtube.com/" target="_blank"><div class="whiteCircleIcons" style="left:13.3vw;"><img src="img/youtube.png" class="imgYoutube" alt="youtube logo"></div></a>
+
+		</div>
+
+		<div class="mainPage" style="padding-bottom: 1500px;">
+			
+			<span class="textMain" style="position: absolute;top:50px; padding-left:400px">Gallery</span>
+
+			<img src="img/Building_Marble.png" id="image1" alt="marble">
+			<img src="img/Construction.png" id="image2" alt="construction">
+			<img src="img/Park.png" id="image3" alt="park">
+			<img src="img/Workshop.png" id="image4" alt="workshop">
+			<img src="img/Alternative_Escenario.png" id="image5" alt="alternative">
+			<img src="img/Castle.png" id="image6" alt="castle">
+
+			<div style=" position:absolute; left:700px; top: 1400px; ">
+				
+				<video width="450px" height="350px" controls><source src="video/Proyect_1.mp4" type="video/mp4">
+
+			</div>
+
+
+			<div style="left:700px; top: 1800px; position:absolute;">
+				
+				<video width="450px" height="350px" controls><source src="video/Proyect_2.mp4" type="video/mp4">
+
+			</div>
+
+			<div style="left:100px; top: 1400px; position:absolute;">
+				
+				<video width="450px" height="350px" controls><source src="video/Proyect_3.mp4" type="video/mp4">
+
+			</div>
+			
+		</div>
+
+	</body>
+
+</html>
